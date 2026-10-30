@@ -18,29 +18,36 @@
 <body>
 	<h2 class="first-h2">h2</h2>
 	<h2 class="first-h2">Kolejny h2</h2>
-	<p>
-		Akapit, miejsce na tekst.
-	</p>
-	<img src="https://t4.ftcdn.net/jpg/04/72/72/05/360_F_472720551_KLdlvMcCJJ4Nkg3hYDdHZ4bgv8oEqSJn.jpg">
-	<button>Przycisk</button>
 
-	<!-- Stwórz element h1 z napisem "Zadanie 1", daj my atrybut id o nazwie "h1-element" i w stylach css nadaj mu kolor tekstu biały, tło czarne --->
+	<!------------------------------------------------------------------------------------------>
 
-	<h1 id="h1-element">Zadanie 1</h1>
+	<!--- 1. Zamknij fragmenty ze zdjęciem kota i psa w jednym tagu <section></section> --->
+	<!--- 2. Zamknij fragmenty ze zdjęciem kota i psa w osobnych tagach <div></div> ---->
+	<!--- 3. Nadaj divom style, szerokość 50% i float:left ---->
+	<!--- 4. Po tych zmianach, zdjęcia psa i kota, oraz ich opisy powinny być w jednej linii w przeglądarce --->
 
-	<a href="https://youtube.com">Youtube</a>
 
+    <section>
+		<div style="float: left; width: 50%; text-align: center;">
+			<p>
+				Akapit, miejsce na tekst.
+			</p>
+			 <img src="https://t4.ftcdn.net/jpg/04/72/72/05/360_F_472720551_KLdlvMcCJJ4Nkg3hYDdHZ4bgv8oEqSJn.jpg">
+			<button>Przycisk</button>
+    	</div>
 	<!------------------------------------------------------------------------------------->
 
 	<!-- 1. Napisz nagłówek h1 o treści "To ja Konradek", nagłówek powinien być wyśrodkowany.--->
 	<!-- 2. Pod nagłówkiem napisz akapit, w którym opiszesz się w trzech zdaniach -->
 	<!-- 3. Pod akapitem dodaj wyświetl zdjęcie, twojego ulubionego zwierzęcia -->
 
-	<h2 style="text-align: center;">To ja Konradek</h2>
-
-	<p>Cześć jestem Konrad i jestem zagorzałym katolikiem i kibicem Barcelony. Jestem uzależniony od Piłki Nożnej co druga moja myśl jest o Piłce. Też często lubię pograć w gry Ostatnim czasie gram w Manor Lord a ja nie tylko gram w coś też casami idę na spacer do sklepu, bawię się z psem i programuje z moim bratem.</p>
-	<img src="https://ocdn.eu/images/pulscms/MTc7MDA_/bea08fa295e3b30de052e445d38b4ba0.png">
-
+		<div style="float: left; width: 50%; text-align: center;">
+			<h2 style="text-align: center;">To ja Konradek</h2>
+			<p>Cześć jestem Konrad i jestem zagorzałym katolikiem i kibicem Barcelony. Jestem uzależniony od Piłki Nożnej co druga moja myśl jest o Piłce. Też często lubię pograć w gry Ostatnim czasie gram w Manor Lord a ja nie tylko gram w coś też casami idę na spacer do sklepu, bawię się z psem i programuje z moim bratem.</p>
+			<img height="300" src="https://ocdn.eu/images/pulscms/MTc7MDA_/bea08fa295e3b30de052e445d38b4ba0.png">
+		</div>
+		<div style="clear: both;"></div>
+	</section>
 	<!-- Komentarz w htmlu -->
 
 	<hr style="margin-top: 25px; margin-bottom: 25px;">
@@ -58,5 +65,7 @@
 		</div>
 		<div style="clear: both;"></div>
 	</section>
+
+	<a href="https://youtube.com">Youtube</a>
 </body>
 </html>
